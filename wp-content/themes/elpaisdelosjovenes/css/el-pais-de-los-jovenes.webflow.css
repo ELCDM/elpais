@@ -1,0 +1,1679 @@
+.portada {
+  position: relative;
+  top: 0px;
+  display: block;
+  width: 100%;
+  min-height: 0px;
+}
+
+.navmar {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  margin-top: 21px;
+  background-color: transparent;
+}
+
+.navmar.navbarinter {
+  position: relative;
+}
+
+.navmar.navmenuint {
+  position: relative;
+}
+
+.nav-menu {
+  position: relative;
+  width: 100%;
+  float: left;
+  border-top: 4px solid #e51c20;
+  background-color: #222;
+  line-height: 0px;
+}
+
+.itemenu {
+  background-image: url('../images/shape.png');
+  background-position: 96% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  color: #fff;
+  line-height: 0px;
+  text-transform: uppercase;
+}
+
+.itemenu:hover {
+  background-color: #fff;
+  background-image: url('../images/shape2.png');
+  background-position: 96% 50%;
+  background-size: auto;
+  color: #000;
+}
+
+.body {
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.submenucontent {
+  position: relative;
+  display: none;
+  width: 100%;
+  float: left;
+}
+
+.laultimasentra {
+  position: relative;
+  width: 100%;
+  padding-top: 20px;
+  float: left;
+  background-color: #fff;
+}
+
+.unaultim {
+  position: relative;
+  width: 20%;
+  padding-right: 1%;
+  padding-left: 1%;
+  float: left;
+}
+
+.contentimg {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+.text-block {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+  color: rgba(34, 34, 34, .91);
+  line-height: 19px;
+  font-size: 12px;
+  font-weight: 900px;
+}
+
+.etiqueta {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  padding-right: 5px;
+  padding-left: 5px;
+  float: left;
+  background-color: #222;
+  color: #fff;
+  font-size: 9px;
+  line-height: 17px;
+  font-weight: 300;
+}
+
+.etiquetascontent {
+  position: relative;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: left;
+  background-color: #fff;
+}
+
+.unatequita {
+  position: relative;
+  margin-left: 5px;
+  padding: 3px 8px;
+  float: left;
+  border-radius: 5px;
+  background-color: #2b9fd7;
+  color: #fff;
+  font-size: 11px;
+  line-height: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.botscam {
+  width: 70px;
+  max-width: none;
+  margin-top: 4px;
+  padding-right: 7px;
+  float: right;
+}
+
+.botderech {
+  width: 25px;
+  height: 23px;
+  margin-right: 2px;
+  margin-left: 2px;
+  float: right;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  background-image: url('../images/shape3.png');
+  background-position: 50% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.botderech:hover {
+  background-color: #2b9fd7;
+  background-image: url('../images/shape5.png');
+  background-size: auto;
+}
+
+.botderech.izquierd {
+  width: 25px;
+  height: 23px;
+  background-image: url('../images/shape4.png');
+  background-position: 50% 62%;
+  background-size: auto;
+}
+
+.botderech.izquierd:hover {
+  background-color: #2b9fd7;
+  background-image: url('../images/shape6.png');
+  background-position: 50% 48%;
+  background-size: auto;
+}
+
+.buscador {
+  width: 19px;
+  height: 19px;
+  margin-top: 11px;
+  margin-right: 10px;
+  float: right;
+  background-image: url('../images/lupita.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.buscadorform {
+  position: relative;
+  display: none;
+  width: 100%;
+  max-width: 295px;
+  margin-bottom: 0px;
+  float: right;
+  background-color: transparent;
+}
+
+.buscadorform.enbuscador {
+  display: block;
+  max-width: none;
+}
+
+.formsearch {
+  width: 90%;
+  min-width: 0px;
+  margin-top: 10px;
+  margin-right: 5%;
+  float: right;
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+}
+
+.textdesearch {
+  width: 70%;
+  min-height: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  float: left;
+  border-style: solid;
+  border-color: #969191;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  line-height: 20px;
+}
+
+.submit-button {
+  width: 30%;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border: 0px none #e6e6e6;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #444;
+}
+
+.submit-button:hover {
+  background-color: #000;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  margin-top: 0px;
+  float: left;
+}
+
+.main.min {
+  min-height: 5000px;
+}
+
+.portadaimg {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+.publicidad12890 {
+  position: relative;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  float: left;
+}
+
+.imgpubli {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.div1080px {
+  display: block;
+  width: 100%;
+  max-width: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.div1080px.borderdiv {
+  border-right: 1px solid #e6e6e6;
+  border-left: 1px solid #e6e6e6;
+}
+
+.div1080px.footerdiv {
+  padding-bottom: 29px;
+}
+
+.notasdeldiacontent {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+.bignota {
+  position: relative;
+  width: 49.5%;
+  min-height: 306px;
+  margin-right: 0.5%;
+  float: left;
+}
+
+.bignota.min {
+  min-height: 5000px;
+  float: left;
+}
+
+.textdenotas {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.tituldenota {
+  position: relative;
+  width: 100%;
+  padding-right: 4%;
+  padding-left: 4%;
+  float: left;
+  color: #fff;
+  font-size: 22px;
+}
+
+.tituldenota.tituldenotape {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 600;
+}
+
+.tituldenota.tituldelanotcuad {
+  min-height: 0px;
+  padding-right: 0%;
+  padding-left: 0%;
+  color: #333;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.tituldenota.tituldelanotcuad.tituldeunanotita {
+  margin-top: 0px;
+  font-size: 13px;
+}
+
+.tituldenota.tituldelanotcuad.titulderela {
+  font-size: 15px;
+  line-height: 19px;
+}
+
+.fechanota {
+  position: relative;
+  width: 100%;
+  margin-bottom: 15px;
+  padding-left: 4%;
+  float: left;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.fechanota.fechanotit {
+  margin-bottom: 5px;
+}
+
+.fechanota.fechvert {
+  margin-bottom: 5px;
+  padding-left: 0%;
+  color: #222;
+  font-weight: 400;
+}
+
+.fechanota.fechdenotacuad {
+  padding-left: 0%;
+  color: #000;
+}
+
+.fechanota.fechdenotacuad.fechadenotapu {
+  margin-bottom: 4px;
+}
+
+.sombranota {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(270deg, transparent, rgba(0, 0, 0, .4));
+  background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, .4));
+}
+
+.sombranota:hover {
+  background-image: -webkit-linear-gradient(270deg, transparent, transparent);
+  background-image: linear-gradient(180deg, transparent, transparent);
+}
+
+.sombranota.sobmradenotita {
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(270deg, transparent, rgba(0, 0, 0, .56));
+  background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, .56));
+}
+
+.sombranota.sobmradenotita:hover {
+  background-image: -webkit-linear-gradient(270deg, transparent, transparent);
+  background-image: linear-gradient(180deg, transparent, transparent);
+}
+
+.otrasnotaspri {
+  position: relative;
+  width: 49.5%;
+  margin-left: 0.1%;
+  float: left;
+}
+
+.unanotaprinci {
+  position: relative;
+  overflow: hidden;
+  width: 49%;
+  max-height: 150px;
+  margin-right: 1%;
+  margin-bottom: 5px;
+  float: left;
+}
+
+.unanotaprinci.notasig {
+  width: 24.5%;
+  margin-right: 0.44%;
+}
+
+.imgdenota {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+.tag, .sidebar .widget-title {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  padding: 2px 10px;
+  border-radius: 10px;
+  background-color: #e51c20;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.tag.notassemana, .sidebar .widget-title {
+  position: relative;
+  left: 2%;
+  top: 10px;
+  min-height: 0px;
+  min-width: 80px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  float: left;
+  clear: both;
+  background-color: #222;
+  line-height: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.custom-html-widget{
+  display: block;
+  position: relative;
+  clear: both;
+  margin-top: 15px;
+  float: left;
+  width: 100%;
+}
+
+.tag.notassemana.tagin {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-left: 3%;
+}
+
+.tag.notassemana.cargarmas {
+  display: block;
+  width: 180px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  float: none;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.tag.tagfooter {
+  position: relative;
+  left: 0px;
+  margin-top: 33px;
+  float: left;
+  background-color: #fff;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.otrasnotas {
+  position: relative;
+  display: block;
+  width: 100%;
+  float: left;
+}
+
+.notasdelasemana {
+  position: relative;
+  width: 100%;
+  margin-top: 0px;
+  float: left;
+  border-top: 0px solid #e6e6e6;
+}
+
+.contentprinci {
+  position: relative;
+  width: 69%;
+  float: left;
+  border-right: 1px solid #e6e6e6;
+}
+
+.contentprinci.interior {
+  min-height: 0px;
+  padding-bottom: 30px;
+  padding-left: 0%;
+}
+
+.sidebar {
+  position: relative;
+  width: 31%;
+  padding-right: 1%;
+  padding-bottom: 40px;
+  padding-left: 0.5%;
+  float: left;
+}
+
+.unanotahoriz {
+  position: relative;
+  width: 98%;
+  margin-bottom: 20px;
+  margin-left: 2%;
+  float: left;
+}
+
+.lasnotas {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  float: left;
+  clear: both;
+  padding-bottom: 20px;
+}
+
+.lasnotas.notascuadrit {
+  min-height: auto;
+}
+
+.lasnotas.lasnotasconpubli {
+  min-height: 620px;
+}
+
+.text-block-2 {
+  position: relative;
+  float: left;
+}
+
+.imgdenotaver {
+  position: relative;
+  width: 100%;
+  max-width: 215px;
+  float: left;
+}
+
+.textdelanothoz {
+  position: relative;
+  width: 67%;
+  margin-left: 2%;
+  float: left;
+}
+
+.imgcontenthoz {
+  position: relative;
+  width: 31%;
+  float: left;
+}
+
+.tituldelanotahoz {
+  margin-top: 0px;
+  padding-right: 5%;
+  color: #222;
+  font-size: 19px;
+  line-height: 23px;
+  font-weight: 600;
+}
+
+.tituldelanotahoz.titulanterior {
+  margin-bottom: 5px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.textdenotvert {
+  position: relative;
+  width: 100%;
+  padding-right: 5%;
+  float: left;
+  color: #333;
+}
+
+.textdenotvert.textnotapubli {
+  font-size: 12px;
+}
+
+.radiocontent {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  min-width: 300px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+  clear: both;
+}
+
+.radioclic {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  float: left;
+  background-color: transparent;
+}
+
+.radioparmovil {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 0px;
+  float: left;
+  background-image: url('../images/fondoradio.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.escuchaaqui {
+  position: relative;
+  width: 100%;
+  float: left;
+  color: #fff;
+  text-align: center;
+}
+
+.imgderadio {
+  position: relative;
+  width: 100%;
+  float: left;
+  line-height: 0px;
+}
+
+.iconcontents {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 172px;
+  margin-right: auto;
+  margin-bottom: 15px;
+  margin-left: auto;
+  float: none;
+  clear: both;
+}
+
+.unicon {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.iralaradio {
+  position: fixed;
+  top: 20px;
+  right: 3%;
+  z-index: 9999;
+  width: 150px;
+  height: 138px;
+  background-image: url('../images/logoiralaradio.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.contside {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  float: left;
+  display: block;
+}
+.fb-page{
+  display: block !important;
+  position: relative;
+  clear: both;
+  margin: 0 auto;
+  float: none;
+  max-width: 270px;
+}
+
+.publi300 {
+  position: relative;
+  display: block;
+  max-width: 300px;
+  min-width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+}
+
+.publi300.publiin {
+  clear: both;
+}
+
+.imgpublic {
+  float: left;
+}
+
+.imgfb {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.unanotacuadrit {
+  width: 40%;
+  margin-right: 5%;
+  margin-left: 5%;
+  float: left;
+  min-height: 285px;
+  max-height: 285px;
+}
+
+.unanotacuadrit.relacionada {
+  width: 29.3%;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  float: left;
+  background-color: transparent;
+}
+
+.footer.min {
+  position: relative;
+  min-height: 1000px;
+  background-image: url('../images/footer.png');
+  background-position: 50% 0px;
+  background-size: 1080px;
+  background-repeat: no-repeat;
+}
+
+.footersec1 {
+  position: relative;
+  width: 33%;
+  float: left;
+}
+
+.footersec1.footersec2 {
+  position: relative;
+  padding-left: 1%;
+  float: left;
+}
+
+.footersec1.footersec3 {
+  padding-left: 3%;
+}
+
+.logodelfooter {
+  display: block;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: 6%;
+  float: left;
+}
+
+.textfooter {
+  position: relative;
+  width: 94%;
+  min-height: 0px;
+  margin-top: 20px;
+  margin-left: 6%;
+  padding-right: 3%;
+  float: left;
+  color: #fff;
+  line-height: 22px;
+}
+a.asinestilo{
+  text-decoration: none;
+  color: #fff;
+}
+a.asinestilo:hover{
+  text-decoration: underline;
+}
+
+.linkdecorreo {
+  color: #2b9fd7 !important;
+}
+
+.redesfoots {
+  position: relative;
+  width: 94%;
+  margin-top: 18px;
+  margin-left: 6%;
+  padding-top: 0px;
+  float: left;
+}
+
+.redelfooter {
+  margin-right: 5%;
+  margin-left: 0%;
+  padding: 2px 2%;
+}
+
+.unanotapeque {
+  position: relative;
+  width: 100%;
+  margin-bottom: 18px;
+  float: left;
+}
+
+.imgnotdelfoot {
+  position: relative;
+  width: 33%;
+  min-width: 107px;
+  float: left;
+}
+
+.lasnotsdelfoot {
+  position: relative;
+  width: 100%;
+  margin-top: 31px;
+  padding-left: 3%;
+  float: left;
+}
+
+.tituldenotfoot {
+  position: relative;
+  width: 56%;
+  margin-top: 0px;
+  margin-left: 5%;
+  float: left;
+  color: #fff;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.listadecentro {
+  position: relative;
+  width: 100%;
+  margin-top: 22px;
+  float: left;
+}
+
+.link {
+  position: relative;
+  width: 100%;
+  margin-bottom: 12px;
+  float: left;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #2b9fd7;
+}
+
+.numbernota {
+  padding-right: 3%;
+  float: right;
+}
+
+.allfooter {
+  position: relative;
+  width: 100%;
+  float: left;
+  background-color: #222;
+}
+
+.downfooter {
+  position: relative;
+  width: 100%;
+  float: left;
+  background-color: #e51c20;
+}
+
+.text-block-3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 2%;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.unasecside {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+.imgbignota {
+  width: 100%;
+  height: 100%;
+}
+
+.notaypubli {
+  position: relative;
+  width: 50%;
+  float: left;
+}
+
+.lanotagrande {
+  position: relative;
+  width: 82%;
+  margin-top: 4px;
+  margin-bottom: 30px;
+  margin-left: 11.5%;
+  float: left;
+}
+
+.lasnotitas {
+  position: relative;
+  width: 50%;
+  float: left;
+}
+
+.unanotita {
+  min-height: 77px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  margin-left: 4%;
+}
+
+.image-2 {
+  position: relative;
+  width: 28%;
+  float: left;
+}
+
+.textdelanota {
+  position: relative;
+  width: 60%;
+  margin-left: 5%;
+  float: left;
+}
+
+.navegador {
+  position: relative;
+  width: 100%;
+  padding-bottom: 20px;
+  float: left;
+}
+
+.breadcrumb {
+  position: relative;
+  width: 100%;
+  margin-top: 13px;
+  float: left;
+  line-height: 15px;
+}
+
+.unbread {
+  margin-right: 1%;
+  padding-right: 2%;
+  background-image: url('../images/shape3.png');
+  background-position: 100% 50%;
+  background-size: 6px;
+  background-repeat: no-repeat;
+  color: #333;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.unbread:hover {
+  border-bottom: 1px solid rgba(51, 51, 51, .65);
+}
+
+.tagsinter {
+  position: relative;
+  width: 100%;
+  margin-top: 5px;
+  float: left;
+}
+
+.taginter {
+  margin-right: 1%;
+  padding: 3px 8px;
+  border-radius: 4px;
+  background-color: #2b9fd7;
+  color: #fff;
+  font-size: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.taginter:hover {
+  background-color: #35ace6;
+}
+
+.titulinter {
+  position: relative;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 3px;
+  padding-right: 3%;
+  float: left;
+  font-size: 34px;
+  line-height: 43px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
+
+.sharebar {
+  position: relative;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 2%;
+  float: left;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.contentupinter {
+  position: relative;
+  width: 100%;
+  padding-left: 2%;
+  float: left;
+}
+
+.imgcontent {
+  position: relative;
+  width: 100%;
+  padding-top: 20px;
+  float: left;
+}
+
+.imginterdenot {
+  display: block;
+  width: 95%;
+  max-width: 690px;
+  margin-right: auto;
+  margin-left: auto;
+  clear: both;
+}
+
+.contentdelanota {
+  position: relative;
+  width: 96%;
+  padding-top: 17px;
+  padding-left: 3%;
+  float: left;
+}
+
+.textdelant {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+
+.imgvideo {
+  display: block;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.etiquetasdelanota {
+  position: relative;
+  width: 100%;
+  margin-top: 27px;
+  padding-bottom: 13px;
+  padding-left: 3%;
+  float: left;
+  border-bottom: 1px none #e6e6e6;
+}
+
+.eti {
+  position: relative;
+  margin-right: 1%;
+  padding-right: 5px;
+  padding-left: 5px;
+  float: left;
+  background-color: #222;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.eti.etiketlink {
+  min-width: 41px;
+  margin-bottom: 8px;
+  background-color: #b8b7b7;
+  text-decoration: none;
+}
+
+.eti.etiketlink:hover {
+  background-color: #2b9fd7;
+}
+
+.proximoyanterior {
+  position: relative;
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.artiantyprox {
+  position: relative;
+  width: 50%;
+  padding-bottom: 5px;
+  float: left;
+}
+
+.textanter {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 3%;
+  float: left;
+  color: #c1c2c2;
+  font-size: 13px;
+}
+
+.textanter.protext {
+  padding-right: 3%;
+  text-align: right;
+}
+
+.notasrecomendadas {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+.lasrealcionadas {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  float: left;
+}
+
+.buscarmov {
+  display: none;
+}
+
+.textodebusqueda {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5%;
+  font-size: 24px;
+}
+
+.resilts {
+  color: #2b9fd7;
+}
+.dblock{
+  display: block;
+}
+.loaderimg{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.6);
+}
+.loaderimg img{
+  margin: 120px auto 0 auto;
+  display: block;
+}
+.aquicontent{
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+.backcolor{background-color: #2b9fd7; }
+.colortext{color: #2b9fd7; }
+.colornaranja{color: #ea5e15 !important;}
+.colorazul{color: #2b9fd7 !important;}
+.submenuinter{position: absolute !important;}
+.displaynone{display: none;}
+.imgnotcont{
+  display: block;
+  float: left;
+  width: 100%;
+  max-height: 160px;
+  overflow: hidden;
+}
+.buscar4{
+  position: relative !important;
+}
+/*INICIA ESTILOS DE GALERIA*/
+.contentdelanota .gallery{
+  margin: 26px auto;
+  float: none;
+  max-width: 600px;
+  max-height: 450px;
+  overflow: hidden;
+}
+.contentdelanota .gallery figure{
+  margin: 0;
+  margin-bottom: 0;
+  float: left;
+  width: 25%;
+  height: 150px;
+  overflow: hidden;
+}
+.contentdelanota .gallery figure img{
+ height: 150px;
+}
+.contentdelanota .gallery .figcaption{
+  display: none;
+}
+/*-------------------------*/
+.contentdelanota iframe{
+  display: block;
+  margin: 30px auto;
+  /*width: 600px;*/
+  /*height: 337px;*/
+}
+.contentdelanota p {
+  margin-bottom: 17px;
+  line-height: 25px;
+}
+.contentdelanota ul, .contentdelanota ol{
+  margin: 20px 0;
+}
+.contentdelanota ul li, .contentdelanota ol li{
+  margin-bottom: 10px;
+}
+.contentdelanota a{
+ color: #333;
+ text-decoration: none;
+ font-weight: bold;
+ font-size: 17px;
+}
+.contentdelanota a:hover{
+  color: #03a9f4;
+}
+a.logoweb{
+  background-image: url('../images/resplandor.png');
+  background-position: 50% 50%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  float: left;
+  width: 100%;
+  display: block;
+}
+a.logoweb img{
+  float: none;
+  margin: 0 auto;
+  display: block;
+}
+.movplubi{
+  display: none;
+}
+.pagin{
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  padding: 0 36px;
+  margin-bottom: 30px;
+}
+.ult_prim{
+  float: left;
+  display: block;
+  position: relative;
+  width: 20%;
+  text-align: center;
+  padding: 6px;
+  color: #2b9fd7;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+.ult_prim:hover{
+  background: #2b9fd7;
+  color: #fff;
+  border-radius: 10px;
+}
+.laspagins{
+  float: left;
+  position: relative;
+  display: block;
+  width: 60%;
+  text-align: center;
+  margin-top: 7px;
+}
+.laspagins a{
+  padding: 3px 2% ;
+  color: #2b9fd7; 
+  text-decoration: none;
+}
+.laspagins a:hover{
+  text-decoration: underline;
+}
+.laspagins a.w--current{
+  text-decoration:underline; 
+}
+.mid {display: none;}
+.contentdelanota img.aligncenter{
+  margin: 0 auto;
+  float: none;
+  display: block;
+}
+
+@media (max-width: 991px) {
+  .navmar {
+    overflow: visible;
+  }
+  .nav-menu {
+    z-index: 1;
+  }
+  .itemenu {
+    width: 90%;
+    margin-left: 5%;
+    float: left;
+    border-bottom: 1px solid hsla(0, 0%, 67%, .31);
+  }
+  .buscador {
+    display: none;
+  }
+  .buscadorform {
+    display: block;
+  }
+  .buscadorform.nobuscar {
+    display: none;
+  }
+  .header {
+    overflow: visible;
+  }
+  .bignota {
+    min-height: 256px;
+  }
+  .contentprinci {
+    width: 100%;
+  }
+  .sidebar {
+    width: 100%;
+  }
+  .iralaradio {
+    top: 30px;
+    z-index: 999;
+    width: 100px;
+    height: 100px;
+    margin-top: -15px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .footersec1 {
+    width: 100%;
+  }
+  .footersec1.footersec2 {
+    width: 50%;
+  }
+  .footersec1.footersec3 {
+    width: 50%;
+  }
+  .logodelfooter {
+    margin-top: 20px;
+    margin-left: 1%;
+  }
+  .textfooter {
+    margin-left: 1%;
+  }
+  .redesfoots {
+    margin-left: 1%;
+  }
+  .numbernota {
+    padding-right: 5%;
+  }
+  .unasecside {
+    width: 50%;
+  }
+  .unasecside.displaynone {
+    display: none;
+  }
+  .icondemov {
+    background-color: #000;
+    color: #fff;
+    font-size: 51px;
+  }
+  .navegador {
+    width: 90%;
+    margin-left: 5%;
+    border-bottom: 1px solid rgba(51, 51, 51, .52);
+  }
+  .menu-button {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .menu-button.w--open {
+    background-color: transparent;
+  }
+}
+
+@media (max-width: 767px) {
+  .buscadorform {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-top: 5px;
+  }
+  .buscadorform.enbuscador {
+    position: relative;
+  }
+  .formsearch {
+    display: none;
+  }
+  .formsearch.buscardebus {
+    display: block;
+  }
+  .main {
+    overflow: hidden;
+  }
+  .bignota {
+    width: 100%;
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+  .otrasnotaspri {
+    width: 100%;
+  }
+  .unanotaprinci {
+    width: 50%;
+    margin-right: 0%;
+    margin-bottom: 0px;
+  }
+  .unanotaprinci.notasig {
+    width: 25%;
+    margin-right: 0%;
+  }
+  .tag.tagfooter {
+    margin-top: 20px;
+  }
+  .unanotahoriz {
+    margin-bottom: 35px;
+  }
+  .iralaradio {
+    margin-top: 58px;
+  }
+  .footersec1.footersec2 {
+    width: 100%;
+  }
+  .footersec1.footersec3 {
+    width: 100%;
+  }
+  .unanotapeque {
+    max-width: 400px;
+  }
+  .unasecside {
+    width: 100%;
+  }
+  .imgbignota {
+    width: 100%;
+  }
+  .logo {
+    min-width: 0px;
+  }
+  .menu-button {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .menu-button.w--open {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .buscarmov {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    float: right;
+    background-color: #000;
+    background-image: url('../images/lupita.png');
+    background-position: 50% 50%;
+    background-size: 20px;
+    background-repeat: no-repeat;
+  }
+  .w-nav-overlay{
+    top: 81%;
+  }
+  .dblock{
+    display: block;
+  }
+  .contentdelanota iframe{
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+  }
+  a.logoweb{
+    margin-top: -25px;
+  }
+  .contentdelanota img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 479px) {
+  .navmar {
+    margin-top: 10px;
+  }
+  .nav-menu {
+    margin-top: 10px;
+  }
+  .formsearch {
+    display: none;
+    position: absolute;
+    width: 280px;
+    margin-top: 35px;
+  }
+  .bignota {
+    min-height: 0px;
+  }
+  .tituldenota {
+    margin-bottom: 5px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .unanotaprinci {
+    width: 100%;
+  }
+  .unanotaprinci.notasig {
+    width: 100%;
+  }
+  .contentprinci.interior {
+    padding-bottom: 0px;
+  }
+  .textdelanothoz {
+    width: 104%;
+  }
+  .imgcontenthoz {
+    display: block;
+    width: 101%;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+  }
+  .iralaradio {
+    width: 70px;
+    height: 70px;
+    margin-top: 40px;
+  }
+  .unanotacuadrit {
+    width: 90%;
+  }
+  .unanotacuadrit.relacionada {
+    width: 95%;
+    margin-left: 3%;
+  }
+  .textfooter {
+    padding-left: 0%;
+  }
+  .logo {
+    width: auto;
+  }
+  .icondemov {
+    font-size: 38px;
+    line-height: 34px;
+  }
+  .imgdenot {
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .imgdeestasnots {
+    width: 100%;
+  }
+  .notaypubli {
+    width: 100%;
+  }
+  .lasnotitas {
+    width: 100%;
+  }
+  .titulinter {
+    margin-bottom: 6px;
+    font-size: 23px;
+    line-height: 27px;
+    font-weight: 600;
+  }
+  .artiantyprox {
+    padding-bottom: 0px;
+  }
+  .buscarmov {
+    width: 30px;
+    height: 30px;
+  }
+  .textodebusqueda {
+    line-height: 26px;
+  }
+  .dblock{
+    display: block;
+  }
+  .buscadorform{
+    max-width: 50px;
+  }
+  a.logoweb img{
+    max-width: 170px;
+  }
+  .publicidad12890{
+    display: none;
+  }
+
+  .movplubi{
+   display: block;
+   position: relative;
+   float: left;
+   width: 100%;
+ }
+ #div-gpt-ad-1503551101138-3, #div-gpt-ad-1503551101138-5{
+  margin: 10px auto;
+  max-width: 320px;
+}
+.ult_prim{
+  width: 300px;
+  margin: 0 auto;
+  float: none;
+  border: 1px solid #2b9fd7;
+  border-radius: 10px;
+}
+.ult_prim:hover{
+  background: #fff;
+  color: #2b9fd7;
+}
+.laspagins{
+ width: 300px;
+ margin: 20px auto;
+ float: none;
+ clear: both;
+ display: block;
+ clear: both;
+ position: relative;
+ overflow: hidden;
+}
+.laspagins a{
+  padding: 5px 2%;
+  color: #2b9fd7;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid;
+  display: block;
+  width: 14%;
+  float: left;
+  margin: 3px 6px;
+}
+
+}
